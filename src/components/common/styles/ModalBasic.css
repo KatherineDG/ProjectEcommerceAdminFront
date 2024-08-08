@@ -1,0 +1,113 @@
+#modal-modal-title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-color: chocolate;
+}
+
+.contenedor-inputs-crear{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 20px 20px 20px 0;
+}
+
+.contenedor-inputs-crear label{
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contenedor-inputs-crear input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.btns-abm{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btns-abm button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-alta{
+    background-color: #00ff00;
+    color: #000000;
+}
+
+.btn-modificar{
+    background-color: #ffee00;
+    color: #000000;
+}
+
+.btn-eliminar{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.btn-cancelar{
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-agregar{
+    display: flex;
+    margin-top: 10px;
+    background-color: #619e2e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+
+.btn-subir-imagen{
+    background-color: #619e2e;
+}
+
+
+#contenedor-tipo-eleccion{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-tipo-eleccion-individual{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contenedor-tipo-eleccion-individual input{
+    margin: 5px 5px 5px 0;
+    height: 30px;
+    width: 100px;
+}
+
+.contenedor-tipo-eleccion-individual p{
+    margin: 15px 5px 5px 0;
+    height: 30px;
+}
+
+.contenedor-tipo-eleccion-individual button{
+    margin: 5px 5px 10px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
